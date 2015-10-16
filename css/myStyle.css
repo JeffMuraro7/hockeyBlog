@@ -1,0 +1,155 @@
+/* 
+    Created on : 18 sept. 2015, 13:09:57
+    Author     : MURAROJ_INFO
+*/
+
+body {
+    margin: 0;
+    
+    background-image: url(../img/back.PNG);
+}
+
+nav {
+    position: relative;
+    
+    height: 50px;
+    width: 100%;
+    
+    margin: 0;
+    
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    
+    margin-right: 10px;
+}
+
+nav #links {
+    position: relative;
+    
+    margin: auto;
+    
+    top: 13px;
+    
+    width: 75%;
+}
+
+nav #toolsNav {
+    position: relative;
+    
+    float: right;
+}
+
+nav input[type=search] {
+    width: 250px;
+    
+    background-color: gray;
+    
+    color: white;
+    font-weight: bold;
+    
+    border: 0px;
+    border-radius: 5px;
+}
+
+header {
+    position: relative;
+    
+    margin: auto;
+    
+    height: 150px;
+    width: 75%;
+}
+
+header h1 {
+   position: absolute;
+   
+   margin-left: 50px;
+  
+   line-height: 60px;
+   
+   font-family: 'ice_capsregular';
+   font-size: 60pt;
+}
+
+#tools img {
+    margin: 0 3px 0 0;
+}
+
+header #toolsHeader {
+    position: relative;
+    
+    top: 118px;
+    
+    float: right;
+}
+
+section {
+    position: relative;
+    
+    margin: 10px auto;
+    
+    height: 700px;
+    width: 75%;
+    
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    
+    background-color: white;
+}
+
+article {
+    position: relative;
+    
+    float: left;
+    
+    margin: 20px;
+    
+    height: 660px;
+    width: 68%;
+    
+    //background-color: yellow;
+}
+
+aside {
+    position: relative;
+    
+    float: right;
+    
+    width: 25%;
+    
+    margin: 20px;
+}
+
+aside h1 {
+    height: 40px;
+    
+    padding-left: 10px;
+    
+    color: black;
+    font-family: 'ice_capsregular';
+    font-size: 25pt;
+    text-transform: uppercase;
+    
+    line-height: 40px;
+    
+    background-color: lightgray;
+}
+
+aside ul {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+aside li {
+    list-style-type: circle;
+}
+
+aside a {
+    color: gray;
+    
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+/* 
+    Created on : 9 oct. 2015, 14:50:29
+    Author     : MURAROJ_INFO
+*/
+
+fieldset {
+    position: relative;
+    
+    margin: auto;
+    
+    top: 65px;
+    
+    height: auto;
+    width: auto;
+    
+    //background-color: red;
+}
+
+/* Mise en forme des input et des boutons. */
+
+input[type=text] {
+    width: 350px;
+    height: 25px;
+    
+    border-radius: 5px;
+    
+    margin: 20px;
+}
+
+input[type=email] {
+    width: 350px;
+    height: 25px;
+    
+    border-radius: 5px;
+    
+    margin: 20px;
+}
+
+input[type=date] {
+    width: 350px;
+    height: 25px;
+    
+    border-radius: 5px;
+    
+    margin: 20px;
+}
+
+input[type=password] {
+    width: 350px;
+    height: 25px;
+    
+    border-radius: 5px;
+    
+    margin: 20px;
+}
+
+input[type=submit] {
+    width: 755px;
+    height: 30px;
+    
+    border-radius: 5px;
+    
+    margin: 20px;
+}
